@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2021-03-13T01:05:45.2864695Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-03-13T01:28:05.9425928Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Name": "mssql1.subscriptionId",
+      "Type": "subscription",
+      "Value": "6d7d5686-c8fd-454d-9b1c-a2e5e613a5d1"
+    },
+    "mssql1.resourceGroupName": {
+      "Name": "mssql1.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "afrasialab2"
+    }
+  }
+}

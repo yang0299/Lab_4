@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA0kZCyg8yU0SUHSePdPPtsgAAAAACAAAAAAAQZgAAAAEAACAAAADGicgrA2IV33l1aaBM3RhglxmnoutrHuztH//YmXBmmAAAAAAOgAAAAAIAACAAAAD8bHLdu2cFCfYPjNQiK2KGI/RYNtkbHQHese2wA8wQ9IAAAABUY1KcN4uBl3nCj9GZN8RppUbpcMpP2kZq9bEXgMa0kLJh4AMRDeuU3MNq3qSgSxI+SYA+b/rb177GXTG61BSW1R9ufKRwEg0hcFvBrwQ5DpdUt52wRf0pEZHYbXe0/MhqV/0ufcr2xhLo1kKrp6RObCLTdaadRyZPmRVSH7uc6EAAAABtiz6dQILC9YyAv37psqdrUVJpyN4+WK2sdrL6hK0YzIsk2doru+wFxxWHX9sFg8VxRU+gM9W4pGwU0HM2abxD</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:boningsql.database.windows.net,1433%3bInitial Catalog=boninglab4%3bPersist Security Info=False%3bUser ID=boningadmin%3bPassword=War3mylove%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="Lab4.Data.SchoolCommunityContext">
+      <Value>Server=tcp:boningsql.database.windows.net,1433%3bInitial Catalog=boninglab4%3bPersist Security Info=False%3bUser ID=boningadmin%3bPassword=War3mylove%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
